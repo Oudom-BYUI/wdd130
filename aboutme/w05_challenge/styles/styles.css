@@ -1,0 +1,13 @@
+header img {
+    width: 800px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div img {
+    margin: 50px 50px;
+    width: 225px;
+    border-radius: 50%;
+    border: 20px solid gray;
+}
