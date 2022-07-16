@@ -28,7 +28,6 @@
             width: 400px;
             /* Form outline */
             padding: 1em;
-            border: 1px solid #ccc;
             border-radius: 1em;
         }
 
@@ -42,20 +41,13 @@
             margin-top: 1em;
         }
 
-        label {
-            /* Unifrom size & alignment */
-            display: inline-block;
-            width: 90px;
-            text-align: right;
-        }
-
         input, textarea {
             /* To make sure that all text fields have the same font setting
             By default, textareas have monospace font */
             font: 1em sans-serif;
 
             /* Uniform text field size */
-            width: 300px;
+            width: 400px;
             box-sizing: border-box;
 
             /* Match form field borders */
@@ -77,13 +69,22 @@
 
         .button {
             /* Align buttons with the text fields */
-            padding-left: 90px; /* same size as the label elements */
+            margin: center; /* same size as the label elements */
+
+            
         }
 
         button {
             /* This extra margin represent roughly the same space as the space
             between the labels and their text fields */
-            margin-left: .5em;
+
+            width: 400px;
+            box-sizing: border-box;
+            padding: .4em;
+        }
+
+        h2 {
+            text-align: center;
         }
 
         p {
@@ -105,7 +106,7 @@
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/rsz_pexels-ready-made-3850252.jpg" alt="Holding phone">
+                <img id="hero-img" src="images/rsz_pexels-yan-krukov-8867434.jpg" alt="service">
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Contact Us</h1>
@@ -114,25 +115,21 @@
         </div>
         <body>
             <h2>Contact Us</h2>
-            <p>We would love to hear from you! Send us a message and we will contact you</p>
+            <p>We would love to hear from you! <br>Send us a message and we will contact you.<br></p>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
+                        <input type="text" id="name" placeholder="Your Name" />
                     </li>
                     <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email" />
+                        <input type="email" id="mail" placeholder="Your Email" />
                     </li>
                     <li>
-                        <labe for="phone">Your Phone</labe>
-                        <input type="urphone" id="phone" name="user_phone" />
+                        <input type="urphone" id="phone" placeholder="Your Phone" />
                     </li>
                     <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <textarea id="msg" placeholder="Message"></textarea>
                     </li>
                     <li class="button">
                         <button type="submit">Send your message</button>
@@ -156,7 +153,7 @@
                     document.body.classList.toggle('moveDown');
                 });
             </script>
-          </body>
+        </body>
         <footer>
             <h3>Blue Tech &copy; 2022 - Oudom Choun</h3>
             <h3><a href="site-plan.html">Site Plan</a></h3>
