@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #b56576;
+    background-color: #98c1d9;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -36,13 +36,13 @@ nav {
 }
 nav a {
     text-align: center;
-    color: rgb(235, 241, 237);
+    color: #355070;
     text-decoration: none;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #98c1d9;
-    color: #355070;
+    background-color: #355070;
+    color: #fff3b0;
 }
 
 .done-right h1 {
@@ -88,7 +88,7 @@ main section img {
 }
 
 footer {
-    background-color: #b56576;
+    background-color: #98c1d9;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -104,8 +104,8 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: aqua;
-    color: white;
+    background-color: #355070;
+    color: #fff3b0;
 }
 
 footer .social img {
